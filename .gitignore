@@ -1,0 +1,10 @@
+# Environment secrets
+local-llmops-rag-assistant/.env
+
+# Python bytecode and caches
+**/__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log

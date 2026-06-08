@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What is retrieval-augmented generation?",
+    "answer": "RAG combines retrieval and generation so model responses are grounded in external documents.",
+    "contexts": [
+      "Retrieval-augmented generation fetches relevant chunks before sending context to an LLM.",
+      "Grounded responses reduce hallucinations when context is relevant and high quality."
+    ],
+    "ground_truth": "RAG retrieves supporting context and then generates an answer grounded in that context."
+  },
+  {
+    "question": "Why do we add citations in RAG answers?",
+    "answer": "Citations show which documents and chunks support the answer so users can verify correctness.",
+    "contexts": [
+      "Citations improve trust by linking claims to source chunks.",
+      "In production systems, citations are often shown as source file and chunk reference."
+    ],
+    "ground_truth": "Citations provide transparency and verifiability by linking output claims to retrieved sources."
+  }
+]

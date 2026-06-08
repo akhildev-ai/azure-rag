@@ -1,0 +1,1 @@
+Azure RAG smoke test document. This is a test upload.
